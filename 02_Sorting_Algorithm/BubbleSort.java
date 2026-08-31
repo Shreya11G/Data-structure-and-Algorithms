@@ -24,3 +24,16 @@ public class BubbleSort {
 
     }
 }
+
+// Bubble Sort repeatedly compares adjacent elements and swaps them if they are in the wrong order, causing larger elements to "bubble" toward the end.
+
+/*
+| Case                                  | Time Complexity |
+| ------------------------------------- | --------------- |
+| Best case (already sorted, optimized) | `O(n)`          |
+| Average case                          | `O(n²)`         |
+| Worst case                            | `O(n²)`         |
+| Space                                 | `O(1)`          |
+
+After every outer loop iteration, the largest unsorted element reaches its correct position at the end.
+*/

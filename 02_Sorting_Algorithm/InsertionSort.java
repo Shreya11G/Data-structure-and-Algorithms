@@ -19,3 +19,13 @@ public class InsertionSort {
          }
     }
 }
+/*
+Insertion Sort builds the sorted array one element at a time by inserting each element into its correct position among the previously sorted elements.
+| Case                   | Time Complexity |
+| ---------------------- | --------------- |
+| Best (already sorted)  | `O(n)`          |
+| Average                | `O(n²)`         |
+| Worst (reverse sorted) | `O(n²)`         |
+| Space                  | `O(1)`          |
+
+*/

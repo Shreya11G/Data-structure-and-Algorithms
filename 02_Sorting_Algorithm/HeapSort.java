@@ -39,12 +39,12 @@ public class HeapSort {
 }
 /*
 Heap Sort uses a Max Heap to repeatedly place the largest element at the end of the array
-Complexity
-Case	Time
-Best	O(n log n)
-Average	O(n log n)
-Worst	O(n log n)
-Space	O(1)
+| Case    | Time         |
+| ------- | ------------ |
+| Best    | `O(n log n)` |
+| Average | `O(n log n)` |
+| Worst   | `O(n log n)` |
+| Space   | `O(1)`       |
 
 🧠 Remember:
 
