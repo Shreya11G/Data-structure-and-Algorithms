@@ -50,7 +50,7 @@ public class kruskal {
         }
     }
 
-    public static void kruskal(int n, List<Edge> edges){
+    public static void kruskal_(int n, List<Edge> edges){
         //step 1: Sort edges by weight
         edges.sort((a,b)-> a.weight-b.weight);
         DSU dsu= new DSU(n);
@@ -90,7 +90,7 @@ public class kruskal {
         edges.add(new Edge(2, 4, 7));
         edges.add(new Edge(3, 4, 9));
 
-        kruskal(n, edges);
+        kruskal_(n, edges);
     }
 }
 

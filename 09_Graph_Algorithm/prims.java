@@ -29,9 +29,9 @@ public class prims {
         graph.get(3).add(new int[]{4, 9});
         graph.get(4).add(new int[]{3, 9});
 
-        prims(n, graph);
+        prims_(n, graph);
     }
-    public static void prims(int n , List<List<int[]>> graph){
+    public static void prims_(int n , List<List<int[]>> graph){
         boolean[] vis= new boolean[n];
         PriorityQueue<int[]> pq= new PriorityQueue<>((a,b)-> a[1]-b[1]);
         pq.add(new int[]{0,0});
