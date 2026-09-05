@@ -35,3 +35,15 @@ public class MergeSort{
         System.out.println(Arrays.toString(arr));
     }
 }
+
+/*
+Merge Sort uses the Divide and Conquer approach: it repeatedly divides the array into halves, sorts them recursively, and then merges the sorted halves.
+
+| Case    | Time Complexity |
+| ------- | --------------- |
+| Best    | `O(n log n)`    |
+| Average | `O(n log n)`    |
+| Worst   | `O(n log n)`    |
+| Space   | `O(n)`          |
+
+*/
