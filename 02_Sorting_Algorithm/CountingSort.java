@@ -1,7 +1,7 @@
 import java.util.*;
 public class CountingSort{
     public static void main(String[] args){
-        int n = 8;
+        
         int arr[]= {4,6,2,3,5,7,3,2};
         int ans[]= countingSort(arr);
         System.out.println(Arrays.toString(ans));
