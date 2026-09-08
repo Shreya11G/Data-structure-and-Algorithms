@@ -64,22 +64,13 @@ public class tarjan_scc{
     }
 }
 /** 
-Tarjan's Algorithm
-Which DSA topic?
-
-Tarjan's Algorithm comes under:
-
-Graph Algorithms
-
-More specifically, it is commonly used for:
+it is commonly used for:
 
 Strongly Connected Components (SCC) in directed graphs
 Bridges in undirected graphs
 Articulation Points in undirected graphs
 
 There are slightly different Tarjan algorithms for each problem. The most common one to learn first is Tarjan's SCC algorithm.
-
-Short definition
 
 Tarjan's Algorithm finds all Strongly Connected Components (SCCs) of a directed graph in O(V + E) time using DFS, discovery times, and low-link values.
 
