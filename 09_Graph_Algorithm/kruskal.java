@@ -62,7 +62,7 @@ public class kruskal {
             int  u = edge.source;
             int v = edge.destination;
             int w = edge.weight;
-            // step 3: Add edge onlyu if it doesn't create cycle
+            // step 3: Add edge only if it doesn't create cycle
             if(dsu.union(u,v)){
                 System.out.println(u+"--"+v+" = "+w);
                 mstweight+=w;

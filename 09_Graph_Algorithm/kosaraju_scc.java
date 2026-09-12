@@ -39,7 +39,7 @@ public class kosaraju_scc{
     public static void kosaraju(int n , List<List<Integer>> graph){
 
         // --------------------------------
-        // Step 1: First DFS (fill node in stack in topo order)
+        // Step 1: DFS and push nodes after visiting all neighbors
         // --------------------------------
 
         boolean[] visited = new boolean[n];

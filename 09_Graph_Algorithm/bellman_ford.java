@@ -37,7 +37,6 @@ public class bellman_ford{
                 int v= edge.dist;
                 int w= edge.weight;
                 if(dist[u]!=Integer.MAX_VALUE && dist[u]+w<dist[v]){
-                    dist[v]=dist[u]+w;
                     System.out.println("Negative weight cycle detected");
                     return;
                 }
