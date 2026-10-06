@@ -21,3 +21,12 @@ public class two_pointer{
         System.out.println(twoSum(arr, target));
     }
 }
+
+/*
+
+| Case | Complexity |
+|---|---|
+| Time | O(n) |
+| Space | O(1) |
+Two Pointer = Two indices + intelligently move one/both pointers to avoid unnecessary comparisons.
+*/
